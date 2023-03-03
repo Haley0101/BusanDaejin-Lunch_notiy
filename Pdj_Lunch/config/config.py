@@ -1,4 +1,4 @@
-from Modules.Module_Basic import *
+import json
 
 def config(value):
     with open(fr"./json/data.json", 'r', encoding='utf-8 sig') as file:

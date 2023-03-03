@@ -1,5 +1,5 @@
 from Modules.Module_Basic import *
-from config import config
+from config.config import config
 
 def Instgram_Upload():
     # try:
