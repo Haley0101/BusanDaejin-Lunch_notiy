@@ -18,7 +18,7 @@ def Instgram_Upload():
                     "disable_comments": 1,
                 }
             )
-            print('Log | Upload True \n', media)
+            print('Log | Upload True \n', media.caption_text)
         except Exception as e:
             print("Error |", e)
     # except Exception as e:
